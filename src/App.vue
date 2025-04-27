@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>🎬 現正上映的電影</h1>
+    <h1>🎬 現正上映電影</h1>
 
     <!-- 搜尋框 -->
     <input type="text" v-model="keyword" placeholder="輸入關鍵字查詢電影" />
@@ -71,7 +71,7 @@ const sortType = ref('release_date')  // ⭐️ 預設是依上映日排序
 
 const fetchMovies = async () => {
   const res = await axios.get('https://movie-backend-wlvm.onrender.com/movies')
-  
+
   console.log(res.data)
 
   let results = res.data
