@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>🎬 現正上映電影</h1>
+    <h1>🎬 現正上映電影 test</h1>
 
     <!-- 搜尋框 -->
     <input type="text" v-model="keyword" placeholder="輸入關鍵字查詢電影" />
